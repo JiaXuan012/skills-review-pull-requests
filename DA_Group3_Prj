@@ -1,0 +1,4 @@
+import openpyxl
+
+with open("Project_File.xlsx") as file:
+    fileStr = file.read_excel()
